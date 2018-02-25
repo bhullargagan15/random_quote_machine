@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="author" content="Gagandeep Singh Bhullar">
+  <meta name="description" content="Creates random quotes from game of thrones using api">
+  <title>Random Quote Machine</title>
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body onload="randomize()">
+  <div class="container">
+    <div class="wrapper">
+      <h2 class="head-text">Random Quote Machine</h2>
+      <div class="card">
+        <div class="card-content">
+          <div id="quote">Here will be my initial quote</div>
+          <div id="character">Author of quote will go here</div>
+        </div>
+        <div class="card-bottom">
+          <div class="info">
+            <a class="twitter-share-button shadow"
+              href="https://twitter.com/intent/tweet?text="
+              data-size="large">
+              Tweet</a>
+          </div>
+          <button id="randomizer">New Quote Please</button>
+        </div>
+      </div>
+    </div>
+    <footer>Made by &copy;Gagandeep Singh Bhullar</footer>
+  </div>
+
+  <script type="text/javascript" src="script.js">
+  </script>
+  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</body>
+</html>
